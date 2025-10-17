@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Contact Us | AFCA</title>
+    <meta name="description" content="Get in touch with AFCA. We're here to help you with your technology and software engineering needs.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="AFCA">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Contact Us | AFCA">
+    <meta property="og:description" content="Get in touch with AFCA. We're here to help you with your technology and software engineering needs.">
+    <meta property="og:url" content="https://afca.com/contact/">
+    <meta property="og:site_name" content="AFCA">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact Us | AFCA">
+    <meta name="twitter:description" content="Get in touch with AFCA for technology consulting and software engineering services">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../wp-content/themes/afca/img/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="../wp-content/themes/afca/img/icons/touch.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="font-['Inter',sans-serif] overflow-x-hidden">
+    
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="fixed inset-0 bg-white z-[9999] flex items-center justify-center">
+        <div class="relative">
+            <div class="w-20 h-20 border-4 border-gray-200 border-t-blue-600 rounded-full animate-spin"></div>
+            <div class="absolute inset-0 flex items-center justify-center">
+                <span class="text-sm font-semibold text-blue-600">AFCA</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Header -->
+    <header id="main-header" class="fixed top-0 left-0 right-0 bg-white shadow-sm z-50 transition-all duration-300">
+        <nav class="container mx-auto px-4 lg:px-8">
+            <div class="flex items-center justify-between h-20 lg:h-24">
+                <!-- Logo -->
+                <div class="logo-container">
+                    <a href="../index.html" class="flex items-center">
+                        <img src="../wp-content/themes/afca/img/logo.png" alt="AFCA Logo" class="h-12 lg:h-16 transition-all duration-300">
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <ul class="hidden lg:flex items-center space-x-8">
+                    <li><a href="../index.html" class="nav-link text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Home</a></li>
+                    <li><a href="./consulting.html" class="nav-link text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Technology Consulting</a></li>
+                    <li><a href="./software-engineering.html" class="nav-link text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Software Engineering</a></li>
+                    <li><a href="./contact.html" class="nav-link active text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Contact Us</a></li>
+                </ul>
+
+                <!-- Mobile Menu Toggle -->
+                <button id="mobile-menu-toggle" class="lg:hidden text-gray-800 focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="lg:hidden hidden bg-white border-t border-gray-200">
+                <ul class="py-4 space-y-2">
+                    <li><a href="../index.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300">Home</a></li>
+                    <li><a href="./consulting.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300">Technology Consulting</a></li>
+                    <li><a href="./software-engineering.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300">Software Engineering</a></li>
+                    <li><a href="./contact.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner relative pt-32 pb-20 lg:pt-40 lg:pb-28" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+        <div class="absolute inset-0 bg-black opacity-10"></div>
+        <div class="container mx-auto px-4 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-8">
+                    <h1 class="text-4xl lg:text-6xl font-bold text-white mb-4" data-aos="fade-right">
+                        <span class="text-gray-300">/ </span><span class="text-yellow-300">Contact</span> Us
+                    </h1>
+                    <p class="text-xl lg:text-2xl text-white" data-aos="fade-right" data-aos-delay="200">
+                        <span class="text-gray-300">/ </span>Get in touch with us!
+                    </p>
+                </div>
+                <div class="lg:col-span-4 text-center" data-aos="fade-left">
+                    <img src="../wp-content/uploads/2015/07/contactbanner.png" alt="Contact Us" class="max-w-xs mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <!-- Contact Form -->
+                    <div data-aos="fade-right">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                            <span class="text-blue-600">Message</span> Us
+                        </h2>
+                        <div class="w-24 h-1 bg-blue-600 mb-8"></div>
+
+                        <form id="contact-form" class="space-y-6">
+                            <!-- Name Field -->
+                            <div class="form-floating">
+                                <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    id="your-name" 
+                                    name="your-name" 
+                                    placeholder="Your Name"
+                                    required
+                                    minlength="2"
+                                >
+                                <label for="your-name">Your Name <span class="text-red-500">*</span></label>
+                            </div>
+
+                            <!-- Email Field -->
+                            <div class="form-floating">
+                                <input 
+                                    type="email" 
+                                    class="form-control" 
+                                    id="your-email" 
+                                    name="your-email" 
+                                    placeholder="Your Email"
+                                    required
+                                >
+                                <label for="your-email">Your Email <span class="text-red-500">*</span></label>
+                            </div>
+
+                            <!-- Phone Field -->
+                            <div class="form-floating">
+                                <input 
+                                    type="tel" 
+                                    class="form-control" 
+                                    id="your-phone" 
+                                    name="your-phone" 
+                                    placeholder="Your Phone"
+                                >
+                                <label for="your-phone">Your Phone</label>
+                            </div>
+
+                            <!-- Subject Field -->
+                            <div class="form-floating">
+                                <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    id="your-subject" 
+                                    name="your-subject" 
+                                    placeholder="Subject"
+                                    required
+                                >
+                                <label for="your-subject">Subject <span class="text-red-500">*</span></label>
+                            </div>
+
+                            <!-- Message Field -->
+                            <div class="form-floating">
+                                <textarea 
+                                    class="form-control" 
+                                    id="your-message" 
+                                    name="your-message" 
+                                    placeholder="Your Message"
+                                    required
+                                    minlength="10"
+                                    style="min-height: 150px;"
+                                ></textarea>
+                                <label for="your-message">Your Message <span class="text-red-500">*</span></label>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button 
+                                type="submit" 
+                                class="btn btn-primary w-full lg:w-auto px-8 py-3 text-white rounded-lg font-semibold hover:shadow-lg transition-all duration-300"
+                            >
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div data-aos="fade-left">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                            <span class="text-blue-600">Contact</span> Information
+                        </h2>
+                        <div class="w-24 h-1 bg-blue-600 mb-8"></div>
+
+                        <div class="space-y-6">
+                            <!-- Phone -->
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Phone Number</h3>
+                                    <p class="text-gray-600"><strong>817-932-9300</strong></p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Email</h3>
+                                    <p class="text-gray-600"><strong>info@afcamail.com</strong></p>
+                                </div>
+                            </div>
+
+                            <!-- Locations -->
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-3">Locations</h3>
+                                    <div class="space-y-4 text-gray-600">
+                                        <div>
+                                            <p class="font-semibold text-gray-700">Grandville, MI</p>
+                                            <p>2885 Sanford Ave SW 29436</p>
+                                            <p>Grandville, MI 49418</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold text-gray-700">Ames, IA</p>
+                                            <p>Iowa State University Research Park</p>
+                                            <p>2625 N Loop Dr, Bldg 2, Suite 2623</p>
+                                            <p>Ames, IA 50010</p>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold text-gray-700">Houston, TX</p>
+                                            <p>1919 N Loop W, Suite 600</p>
+                                            <p>Houston, TX 77008</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center mb-8">
+                <div class="flex items-center justify-center gap-4 mb-4">
+                    <img src="../wp-content/themes/afca/img/footer_logo.png" alt="AFCA" class="h-12">
+                    <span class="text-gray-400 text-2xl">/</span>
+                    <h3 class="text-xl lg:text-2xl font-light">Technology Consulting & Software Engineering</h3>
+                </div>
+                <div class="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
+                <nav>
+                    <ul class="flex flex-wrap justify-center gap-6 lg:gap-8 text-gray-300">
+                        <li><a href="../index.html" class="hover:text-blue-400 transition-colors duration-300">Home</a></li>
+                        <li><a href="./consulting.html" class="hover:text-blue-400 transition-colors duration-300">Technology Consulting</a></li>
+                        <li><a href="./software-engineering.html" class="hover:text-blue-400 transition-colors duration-300">Software Engineering</a></li>
+                        <li><a href="./contact.html" class="hover:text-blue-400 transition-colors duration-300">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="text-center mb-4">
+                <a href="./privacy-policy.html" class="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-300">Privacy Policy</a>
+            </div>
+            <div class="text-center text-gray-500 text-sm">
+                &copy; 2025 Copyright AFCA. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../assets/js/main.js"></script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100917000-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-100917000-1');
+    </script>
+</body>
+</html>
