@@ -314,6 +314,14 @@
     });
 
     // ========================================
+    // DYNAMIC COPYRIGHT YEAR
+    // ========================================
+    const copyrightYear = document.getElementById('copyright-year');
+    if (copyrightYear) {
+        copyrightYear.textContent = new Date().getFullYear();
+    }
+
+    // ========================================
     // PREVENT FOUC (Flash of Unstyled Content)
     // ========================================
     document.documentElement.classList.add('js-loaded');
