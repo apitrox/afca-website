@@ -7,6 +7,7 @@ Allow: /
 Sitemap: https://afca.com/sitemap.xml
 
 # Disallow admin and private areas
+Disallow: /wp_migrated_website/
 Disallow: /wp-admin/
 Disallow: /wp-includes/
 Disallow: /wp-content/plugins/
