@@ -431,7 +431,20 @@ const additionalLanguages = {
     ro: { name: "Română" },
     nl: { name: "Nederlands" },
     sr: { name: "Српски" },
-    ar: { name: "العربية" }
+    ar: { name: "العربية" },
+    id: { name: "Bahasa Indonesia" },
+    tr: { name: "Türkçe" },
+    sv: { name: "Svenska" },
+    tl: { name: "Tagalog" },
+    ms: { name: "Bahasa Melayu" },
+    el: { name: "Ελληνικά" },
+    cs: { name: "Čeština" },
+    da: { name: "Dansk" },
+    fi: { name: "Suomi" },
+    bg: { name: "Български" },
+    hr: { name: "Hrvatski" },
+    sk: { name: "Slovenčina" },
+    ta: { name: "தமிழ்" }
 };
 
 // Merge additional languages (they'll fall back to English for missing translations)

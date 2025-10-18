@@ -44,6 +44,9 @@
     
     <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Translation System -->
+    <script src="../assets/js/translations.js"></script>
 </head>
 <body class="font-['Inter',sans-serif] overflow-x-hidden">
     
@@ -70,10 +73,10 @@
 
                 <!-- Desktop Navigation -->
                 <ul class="hidden lg:flex items-center space-x-8">
-                    <li><a href="../index.html" class="nav-link text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Home</a></li>
-                    <li><a href="./consulting.html" class="nav-link active text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Technology Consulting</a></li>
-                    <li><a href="./software-engineering.html" class="nav-link text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Software Engineering</a></li>
-                    <li><a href="./contact.html" class="nav-link text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300">Contact Us</a></li>
+                    <li><a href="../index.html" class="nav-link text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300" data-i18n="nav_home">Home</a></li>
+                    <li><a href="./consulting.html" class="nav-link active text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300" data-i18n="nav_consulting">Technology Consulting</a></li>
+                    <li><a href="./software-engineering.html" class="nav-link text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300" data-i18n="nav_engineering">Software Engineering</a></li>
+                    <li><a href="./contact.html" class="nav-link text-gray-800 hover:text-blue-600 font-medium transition-colors duration-300" data-i18n="nav_contact">Contact Us</a></li>
                 </ul>
 
                 <!-- Mobile Menu Toggle -->
@@ -87,10 +90,10 @@
             <!-- Mobile Navigation -->
             <div id="mobile-menu" class="lg:hidden hidden bg-white border-t border-gray-200">
                 <ul class="py-4 space-y-2">
-                    <li><a href="../index.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300">Home</a></li>
-                    <li><a href="./consulting.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300">Technology Consulting</a></li>
-                    <li><a href="./software-engineering.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300">Software Engineering</a></li>
-                    <li><a href="./contact.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300">Contact Us</a></li>
+                    <li><a href="../index.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300" data-i18n="nav_home">Home</a></li>
+                    <li><a href="./consulting.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300" data-i18n="nav_consulting">Technology Consulting</a></li>
+                    <li><a href="./software-engineering.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300" data-i18n="nav_engineering">Software Engineering</a></li>
+                    <li><a href="./contact.html" class="block px-4 py-2 text-gray-800 hover:bg-blue-50 hover:text-blue-600 font-medium transition-colors duration-300" data-i18n="nav_contact">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -105,7 +108,7 @@
                         <span class="text-gray-500">/ </span><span class="text-green-600 font-extrabold">Technology</span> Consulting
                     </h1>
                     <p class="text-xl lg:text-2xl text-gray-700" data-aos="fade-right" data-aos-delay="200">
-                        <span class="text-gray-500">/ </span>Business growth through technology
+                        <span class="text-gray-500">/ </span><span data-i18n="consulting_banner_subtitle">Business growth through technology</span>
                     </p>
                 </div>
                 <div class="lg:col-span-4 text-center" data-aos="fade-left">
@@ -127,10 +130,10 @@
                 </div>
 
                 <div class="prose prose-lg max-w-none" data-aos="fade-up" data-aos-delay="200">
-                    <p class="text-xl lg:text-2xl text-gray-700 leading-relaxed">
+                    <p class="text-xl lg:text-2xl text-gray-700 leading-relaxed" data-i18n="consulting_intro_1">
                         Whatever your technology needs may be, our tech specialist will inform you with the latest Technology trends for your perfect business.
                     </p>
-                    <p class="text-xl lg:text-2xl text-gray-700 leading-relaxed mt-6">
+                    <p class="text-xl lg:text-2xl text-gray-700 leading-relaxed mt-6" data-i18n="consulting_intro_2">
                         Our team is very skilled at developing solutions using majority of modern programming languages.
                     </p>
                 </div>
@@ -149,8 +152,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Conversational AI Solutions</h3>
-                    <p class="text-gray-600">Leverage cutting-edge conversational AI and machine learning to automate customer interactions, improve engagement, and boost your bottom line.</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4" data-i18n="consulting_card1_title">Conversational AI Solutions</h3>
+                    <p class="text-gray-600" data-i18n="consulting_card1_desc">Leverage cutting-edge conversational AI and machine learning to automate customer interactions, improve engagement, and boost your bottom line.</p>
                 </div>
 
                 <!-- Feature 2 -->
@@ -160,8 +163,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">System Integration</h3>
-                    <p class="text-gray-600">Seamlessly connect your existing systems and applications to improve efficiency and data flow.</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4" data-i18n="consulting_card2_title">System Integration</h3>
+                    <p class="text-gray-600" data-i18n="consulting_card2_desc">Seamlessly connect your existing systems and applications to improve efficiency and data flow.</p>
                 </div>
 
                 <!-- Feature 3 -->
@@ -171,8 +174,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Cloud Services</h3>
-                    <p class="text-gray-600">Migrate to the cloud and leverage scalable, secure infrastructure for your applications and data.</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4" data-i18n="consulting_card3_title">Cloud Services</h3>
+                    <p class="text-gray-600" data-i18n="consulting_card3_desc">Migrate to the cloud and leverage scalable, secure infrastructure for your applications and data.</p>
                 </div>
 
                 <!-- Feature 4 -->
@@ -182,8 +185,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Technology Strategy</h3>
-                    <p class="text-gray-600">Expert guidance to align your technology investments with your business objectives and drive innovation.</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4" data-i18n="consulting_card4_title">Technology Strategy</h3>
+                    <p class="text-gray-600" data-i18n="consulting_card4_desc">Expert guidance to align your technology investments with your business objectives and drive innovation.</p>
                 </div>
 
                 <!-- Feature 5 -->
@@ -193,8 +196,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Performance Optimization</h3>
-                    <p class="text-gray-600">Enhance system performance and reliability through strategic improvements and monitoring.</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4" data-i18n="consulting_card5_title">Performance Optimization</h3>
+                    <p class="text-gray-600" data-i18n="consulting_card5_desc">Enhance system performance and reliability through strategic improvements and monitoring.</p>
                 </div>
 
                 <!-- Feature 6 -->
@@ -204,8 +207,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Managed IT Services</h3>
-                    <p class="text-gray-600">Comprehensive IT support and management to keep your systems running smoothly.</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4" data-i18n="consulting_card6_title">Managed IT Services</h3>
+                    <p class="text-gray-600" data-i18n="consulting_card6_desc">Comprehensive IT support and management to keep your systems running smoothly.</p>
                 </div>
             </div>
         </div>
@@ -227,20 +230,20 @@
                 <div class="flex items-center justify-center gap-4 mb-4">
                     <img src="../wp-content/themes/afca/img/footer_logo.png" alt="AFCA" class="h-12">
                     <span class="text-gray-400 text-2xl">/</span>
-                    <h3 class="text-xl lg:text-2xl font-light">Technology Consulting & Software Engineering</h3>
+                    <h3 class="text-xl lg:text-2xl font-light" data-i18n="footer_tagline">Technology Consulting & Software Engineering</h3>
                 </div>
                 <div class="w-24 h-1 bg-green-600 mx-auto mb-8"></div>
                 <nav>
                     <ul class="flex flex-wrap justify-center gap-6 lg:gap-8 text-gray-300">
-                        <li><a href="../index.html" class="hover:text-blue-400 transition-colors duration-300">Home</a></li>
-                        <li><a href="./consulting.html" class="hover:text-blue-400 transition-colors duration-300">Technology Consulting</a></li>
-                        <li><a href="./software-engineering.html" class="hover:text-blue-400 transition-colors duration-300">Software Engineering</a></li>
-                        <li><a href="./contact.html" class="hover:text-blue-400 transition-colors duration-300">Contact Us</a></li>
+                        <li><a href="../index.html" class="hover:text-blue-400 transition-colors duration-300" data-i18n="nav_home">Home</a></li>
+                        <li><a href="./consulting.html" class="hover:text-blue-400 transition-colors duration-300" data-i18n="nav_consulting">Technology Consulting</a></li>
+                        <li><a href="./software-engineering.html" class="hover:text-blue-400 transition-colors duration-300" data-i18n="nav_engineering">Software Engineering</a></li>
+                        <li><a href="./contact.html" class="hover:text-blue-400 transition-colors duration-300" data-i18n="nav_contact">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="text-center mb-4">
-                <a href="./privacy-policy.html" class="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-300">Privacy Policy</a>
+                <a href="./privacy-policy.html" class="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-300" data-i18n="footer_privacy">Privacy Policy</a>
             </div>
             <div class="text-center text-gray-500 text-sm">
                 &copy; <span id="copyright-year">2025</span> Copyright AFCA. All rights reserved.
@@ -256,6 +259,9 @@
     
     <!-- Custom JavaScript -->
     <script src="../assets/js/main.js"></script>
+    
+    <!-- Language Handler -->
+    <script src="../assets/js/language-handler.js"></script>
     
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100917000-1"></script>
