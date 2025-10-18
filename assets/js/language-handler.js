@@ -75,15 +75,8 @@
                 { code: 'fr', name: 'Français (French)' },
                 { code: 'de', name: 'Deutsch (German)' },
                 { code: 'hi', name: 'हिन्दी (Hindi)' },
-                { code: 'it', name: 'Italiano (Italian)' },
-                { code: 'ja', name: '日本語 (Japanese)' },
-                { code: 'ko', name: '한국어 (Korean)' },
-                { code: 'pt', name: 'Português (Portuguese)' },
                 { code: 'ru', name: 'Русский (Russian)' },
-                { code: 'sr', name: 'Српски (Serbian)' },
                 { code: 'es', name: 'Español (Spanish)' },
-                { code: 'tl', name: 'Wikang Tagalog (Tagalog)' },
-                { code: 'ur', name: 'اُردُو (Urdu)' },
                 { code: 'vi', name: 'Tiếng Việt (Vietnamese)' }
             ];
 
@@ -101,15 +94,8 @@
                 { code: 'fr', name: 'Français (French)' },
                 { code: 'de', name: 'Deutsch (German)' },
                 { code: 'hi', name: 'हिन्दी (Hindi)' },
-                { code: 'it', name: 'Italiano (Italian)' },
-                { code: 'ja', name: '日本語 (Japanese)' },
-                { code: 'ko', name: '한국어 (Korean)' },
-                { code: 'pt', name: 'Português (Portuguese)' },
                 { code: 'ru', name: 'Русский (Russian)' },
-                { code: 'sr', name: 'Српски (Serbian)' },
                 { code: 'es', name: 'Español (Spanish)' },
-                { code: 'tl', name: 'Wikang Tagalog (Tagalog)' },
-                { code: 'ur', name: 'اُردُو (Urdu)' },
                 { code: 'vi', name: 'Tiếng Việt (Vietnamese)' }
             ];
 
