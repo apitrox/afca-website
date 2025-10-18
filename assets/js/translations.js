@@ -5,7 +5,7 @@
 
 const translations = {
     en: {
-        name: "English",
+        name: "English (English)",
         // Navigation
         nav_home: "Home",
         nav_consulting: "Technology Consulting",
@@ -107,7 +107,7 @@ const translations = {
         privacy_contact_link: "contact us"
     },
     es: {
-        name: "Español",
+        name: "Español (Spanish)",
         // Navigation
         nav_home: "Inicio",
         nav_consulting: "Consultoría Tecnológica",
@@ -209,7 +209,7 @@ const translations = {
         privacy_contact_link: "contáctenos"
     },
     hi: {
-        name: "हिन्दी",
+        name: "हिन्दी (Hindi)",
         // Navigation
         nav_home: "होम",
         nav_consulting: "प्रौद्योगिकी परामर्श",
@@ -311,7 +311,7 @@ const translations = {
         privacy_contact_link: "हमसे संपर्क करें"
     },
     fr: {
-        name: "Français",
+        name: "Français (French)",
         // Navigation
         nav_home: "Accueil",
         nav_consulting: "Conseil en Technologie",
@@ -415,36 +415,19 @@ const translations = {
     // ... I'll create a simplified version with key languages for now
 };
 
-// Add remaining languages with basic translations
+// Add remaining languages with basic translations (fallback to English)
 const additionalLanguages = {
-    de: { name: "Deutsch" },
-    ur: { name: "اردو" },
-    pt: { name: "Português" },
-    ru: { name: "Русский" },
-    zh: { name: "中文" },
-    it: { name: "Italiano" },
-    uk: { name: "Українська" },
-    vi: { name: "Tiếng Việt" },
-    ko: { name: "한국어" },
-    ja: { name: "日本語" },
-    pl: { name: "Polski" },
-    ro: { name: "Română" },
-    nl: { name: "Nederlands" },
-    sr: { name: "Српски" },
-    ar: { name: "العربية" },
-    id: { name: "Bahasa Indonesia" },
-    tr: { name: "Türkçe" },
-    sv: { name: "Svenska" },
-    tl: { name: "Tagalog" },
-    ms: { name: "Bahasa Melayu" },
-    el: { name: "Ελληνικά" },
-    cs: { name: "Čeština" },
-    da: { name: "Dansk" },
-    fi: { name: "Suomi" },
-    bg: { name: "Български" },
-    hr: { name: "Hrvatski" },
-    sk: { name: "Slovenčina" },
-    ta: { name: "தமிழ்" }
+    de: { name: "Deutsch (German)" },
+    it: { name: "Italiano (Italian)" },
+    ja: { name: "日本語 (Japanese)" },
+    ko: { name: "한국어 (Korean)" },
+    pt: { name: "Português (Portuguese)" },
+    ru: { name: "Русский (Russian)" },
+    sr: { name: "Српски (Serbian)" },
+    tl: { name: "Wikang Tagalog (Tagalog)" },
+    ur: { name: "اُردُو (Urdu)" },
+    vi: { name: "Tiếng Việt (Vietnamese)" },
+    zh: { name: "中文 (Chinese)" }
 };
 
 // Merge additional languages (they'll fall back to English for missing translations)
@@ -453,3 +436,4 @@ Object.keys(additionalLanguages).forEach(lang => {
         translations[lang] = { ...translations.en, name: additionalLanguages[lang].name };
     }
 });
+
