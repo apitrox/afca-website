@@ -1,0 +1,6 @@
+{
+    "chat.agentSessionsViewLocation": "view",
+    "chat.checkpoints.showFileChanges": true,
+    "chat.useCloudButtonV2": true,
+    "inlineChat.enableV2": true
+}
