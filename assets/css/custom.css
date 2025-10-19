@@ -24,6 +24,40 @@ body {
 }
 
 /* ========================================
+   CUSTOM GREEN COLOR - #7BB31A
+   ======================================== */
+.text-green-600,
+.text-green-500,
+.text-green {
+    color: #7BB31A !important;
+}
+
+.bg-green-600,
+.bg-green-500,
+.bg-green-50,
+.bg-green-100,
+.bg-green {
+    background-color: #7BB31A !important;
+}
+
+.hover\:text-green-700:hover {
+    color: #6A9E17 !important; /* Slightly darker for hover effect */
+}
+
+.bg-green-50 {
+    background-color: rgba(123, 179, 26, 0.1) !important; /* 10% opacity */
+}
+
+.bg-green-100 {
+    background-color: rgba(123, 179, 26, 0.15) !important; /* 15% opacity */
+}
+
+.border-green-600,
+.border-green {
+    border-color: #7BB31A !important;
+}
+
+/* ========================================
    LOADING SPINNER
    ======================================== */
 #loading-spinner {
