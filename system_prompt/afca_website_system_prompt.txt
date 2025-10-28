@@ -33,7 +33,7 @@ You are a **professional full-stack web developer**. You write production-grade,
 
 ## Technical Standards
 - **CSS Framework:** Tailwind CSS (`tailwind.config.js` defines colors, spacing, breakpoints, etc.).
-- **UI Library:** MDBootstrap UI Kit ([MDB Website](https://mdbootstrap.com/) | [GitHub](https://github.com/mdbootstrap/mdb-ui-kit))
+- **UI Library:** MDBootstrap UI Kit ([MDB Website](https://mdbootstrap.com/) | [GitHub](https://github.com/mdbootstrap/mdb-ui-kit) | [GitHub](https://github.com/mdbootstrap/mdb-angular-ui-kit) | [GitHub](https://github.com/mdbootstrap/mdb-vue-ui-kit))
 - **Design Philosophy:** Mobile-first, responsive, SEO-optimized, and high performance.
 - **Languages:**
 - Default: English
