@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -Command:*)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\rename_temp.ps1\")",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\set_timestamp.ps1\")",
+      "Bash(powershell -Command:*)",
+      "Bash(powershell -File:*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\set_timestamps.ps1\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\rename_fix.ps1\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\set_timestamp.ps1\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File:*)",
+      "Bash(powershell.exe -Command \"Get-ChildItem ''C:\\\\Users\\\\bobla\\\\files-to-rename'' | Select-Object Name\")",
+      "Bash(Rename-Item -LiteralPath \"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\20201204154403_001.pdf\" -NewName \"Other, Tower One Cafe, Weekly Lunch Specials Menu Nov 30 to Dec 4, Bob, 12-4-2020.pdf\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File - <<'PWSH'\n$file = Get-Item -LiteralPath 'C:\\\\Users\\\\bobla\\\\files-to-rename\\\\Other, Tower One Cafe, Weekly Lunch Specials Menu Nov 30 to Dec 4, Bob, 12-4-2020.pdf'\n$date = Get-Date '12/4/2020 00:00:00'\n$file.CreationTime = $date\n$file.LastWriteTime = $date\n$file.LastAccessTime = $date\nWrite-Output 'Timestamps set successfully'\nGet-Item -LiteralPath $file.FullName | Select-Object Name, CreationTime, LastWriteTime, LastAccessTime\nPWSH)",
+      "Bash(powershell.exe:*)",
+      "Bash(powershell:*)",
+      "Bash(cmd /c \"rename \"\"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\Invoice, Computer Hospital, Windows 10 Pro Install For 6 Optiplex, AFCA, .00, 3-29-2021.pdf\"\" \"\"Invoice, Computer Hospital, Windows 10 Pro Install For 6 Optiplex, AFCA, $525.00, 3-29-2021.pdf\"\"\")",
+      "Bash(cmd.exe:*)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -Command*)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File*)"
+    ]
+  }
+}
