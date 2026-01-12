@@ -1,7 +1,7 @@
 {
   "permissions": {
     "additionalDirectories": [
-      "C:\\Users\\bobla\\files-to-rename"
+      "C:\\Users\\bobla\\afca-website"
     ],
     "allow": [
       "Bash(powershell -NoProfile -ExecutionPolicy Bypass -Command:*)",
@@ -21,7 +21,10 @@
       "Bash(cmd /c \"rename \"\"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\Invoice, Computer Hospital, Windows 10 Pro Install For 6 Optiplex, AFCA, .00, 3-29-2021.pdf\"\" \"\"Invoice, Computer Hospital, Windows 10 Pro Install For 6 Optiplex, AFCA, $525.00, 3-29-2021.pdf\"\"\")",
       "Bash(cmd.exe:*)",
       "Bash(powershell -NoProfile -ExecutionPolicy Bypass -Command*)",
-      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File*)"
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File*)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File - << 'PSEOF'*PSEOF)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File - << 'PWSH'*PWSH)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File - << 'PWSHEOF'*PWSHEOF)"
     ]
   }
 }
