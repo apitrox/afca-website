@@ -1,6 +1,13 @@
 {
   "permissions": {
     "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "Task(*)",
       "Bash(powershell -NoProfile -ExecutionPolicy Bypass -Command:*)",
       "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\rename_temp.ps1\")",
       "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\bobla\\\\files-to-rename\\\\set_timestamp.ps1\")",
